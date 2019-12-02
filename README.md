@@ -37,6 +37,14 @@ Denne kabelen kommer i fra de fire (vektene? ikke sikker) som står på hver fot
 
 Disse 7 lederene passer inn i `+EXC - -EXC` rekken på kontrollboksen.
 
+## Ukjent Kabel
+
+Denne kabelen har 10 ledere og en jord leder. Ingen av de andre kabelene i systemet har så mange ledere. Vi antar at denne kabelen tilhører noen sensorer som mangler på venstre siden av motoren. 
+
+De to sensorene som står på høyre side av veiecellen skal ha to lasere som skal antageligvis lyse mot en sensor på andre siden.
+
+Dette er nok for å unngå at objekter kjører av veiecellen.
+
 ## Kabeloversikt
 
 Kabel som ble tatt ut som gikk til hver av rekkeklemmene i kontrollboksen (10 + GND)
