@@ -45,6 +45,10 @@ De to sensorene som står på høyre side av veiecellen skal ha to lasere som sk
 
 Dette er nok for å unngå at objekter kjører av veiecellen.
 
+## Boks #2
+
+Det ligger en til type kontrollboks under veiecellen. Denne vet vi egentlig ikke helt hva gjør.
+
 ## Kabeloversikt
 
 Kabel som ble tatt ut som gikk til hver av rekkeklemmene i kontrollboksen (10 + GND)
