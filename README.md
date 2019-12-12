@@ -49,12 +49,12 @@ Dette er nok for å unngå at objekter kjører av veiecellen.
 
 Det ligger en til type kontrollboks under veiecellen. Denne vet vi egentlig ikke helt hva gjør, men vi kjenner til flere av inngangene og utgangene til denne boksen.
 
-| Inngang        | Beskrivelse                   |
-|----------------|-------------------------------|
-| Svart, Venstre | Denne lederen går til motoren |
-| Hvit, Venstre  | 6 ledere, til hjul under      |
-| 4x Svart Høyre | Går til hver sin fot sin vekt |
-| Svart, Toppen  | Går til hovedkontrollboksen   |
+| Inngang        | Beskrivelse                                             |
+|----------------|---------------------------------------------------------|
+| Svart, Venstre | Denne lederen går til motoren (denne har blitt tatt ut) |
+| Hvit, Venstre  | 6 ledere, til hjul under                                |
+| 4x Svart Høyre | Går til hver sin fot sin vekt                           |
+| Svart, Toppen  | Går til hovedkontrollboksen                             |
 
 ## Motoren
 
