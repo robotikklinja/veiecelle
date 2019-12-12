@@ -76,3 +76,7 @@ Kabel som ble tatt ut som gikk til hver av rekkeklemmene i kontrollboksen (10 + 
 | Grønn   | X2:2        |
 | Gul     | X2:3        |
 | Svart   | X2:4        |
+
+## Pins
+
+Målene på pins som mangler til kontrollboksen er på størrelse `1.00mm x 1.70mm`
