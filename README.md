@@ -4,9 +4,15 @@ Veiecellen er en **Mettler Toledo IND9D56**.
 
 Den drives av en tre faset 230V asynkronmotor og vekten på båndet blir regnet ut av fire mindre vekter på hvert av føttene til båndet. Det er også en liten modul under som regner ut hastigheten på båndet.
 
+# Transportbåndet
+
+Selve transportbåndet er en **Mettler Toledo model 9477https://github.com/robotikklinja/veiecelle/blob/master/bilder/transportbaand_skilt.jpg**. Informasjon om den kan finnes i databrief dokumentene på [denne siden](https://kennedyscales.com/product/9477ind9d57/). Her er et bilde av skiltet på transportbåndet.
+
+![][https://github.com/robotikklinja/veiecelle/blob/master/bilder/transportbaand_skilt.jpg]
+
 ## Intro
 
-Når vi åpnet kontrollboksen var ingen av jordlederene i styrestrømmen til kontrolleren koblet til.
+Da vi åpnet kontrollboksen var ingen av jordlederene i styrestrømmen til kontrolleren koblet til.
 
 Begge skinnene kontrollboksen satt på har blitt skrudd av slik at det er lettere å jobbe med boksen.
 
