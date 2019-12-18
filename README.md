@@ -25,6 +25,18 @@ Det kommer inn 4 kabelenr til kontrollboksen.
 - Datakabel Sort (7 ledere, 6 tynnne, 1 tykk)
 - Ukjent kabel (dato: 28/11/19)
 
+## Kübler incremental encoder
+
+Se mer informasjon om encoderen i dens datablad i pubs mappa. Her skal det forklares egenskapene av enkoderen i mer detalj. Enkoderen er av type 8.5000.D34W.2500.P0004.
+
+Ifølge databladet gjelder følgende påstander:
+
+- D: square flange, med IP65; tverrsnitt 63.5 mm
+- 3: shaft med dimensjoner (ø x L): 10 x 20 mm
+- 4: output circuit / power supply (RS422 (with inverted signal) / 5 V DC)
+- W: koblings- og kabeltype (radial MIL connector, 7-pin)
+- 2500: pulse rate
+
 ### Datakabel Hvit (10-ledere + GND)
 
 Denne kabelen har blitt tatt ut (se #kabeloversikt). Disse lederene gikk inn i settene med rekkeklemmer og jordlederen var skrudd ned i boksen.
