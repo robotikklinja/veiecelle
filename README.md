@@ -6,9 +6,9 @@ Den drives av en tre faset 230V asynkronmotor og vekten på båndet blir regnet 
 
 # Transportbåndet
 
-Selve transportbåndet er en **Mettler Toledo model 9477https://github.com/robotikklinja/veiecelle/blob/master/bilder/transportbaand_skilt.jpg**. Informasjon om den kan finnes i databrief dokumentene på [denne siden](https://kennedyscales.com/product/9477ind9d57/). Her er et bilde av skiltet på transportbåndet.
+Selve transportbåndet er en **Mettler Toledo model 9477**. Informasjon om den kan finnes i databrief dokumentene på [denne siden](https://kennedyscales.com/product/9477ind9d57/). Her er et bilde av skiltet på transportbåndet.
 
-![][https://github.com/robotikklinja/veiecelle/blob/master/bilder/transportbaand_skilt.jpg]
+![](https://github.com/robotikklinja/veiecelle/blob/master/bilder/transportbaand_skilt.jpg)
 
 ## Intro
 
