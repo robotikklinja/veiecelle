@@ -4,6 +4,8 @@ Veiecellen er en **Mettler Toledo IND9D56**.
 
 Den drives av en tre faset 230V asynkronmotor og vekten på båndet blir regnet ut av fire mindre vekter på hvert av føttene til båndet. Det er også en liten modul under som regner ut hastigheten på båndet.
 
+Veiecella og transportbåndet fungerer, men det gjenstår kalibrering av vektene for mer nøyaktige målinger og andre ting som kan finnes på roadmappen under "Projects".
+
 # Transportbåndet
 
 Selve transportbåndet er en **Mettler Toledo model 9477**. Informasjon om den kan finnes i databrief dokumentene på [denne siden](https://kennedyscales.com/product/9477ind9d57/). Her er et bilde av skiltet på transportbåndet.
@@ -16,7 +18,7 @@ Da vi åpnet kontrollboksen var ingen av jordlederene i styrestrømmen til kontr
 
 Begge skinnene kontrollboksen satt på har blitt skrudd av slik at det er lettere å jobbe med boksen.
 
-## Kontrollboksen
+## Veiecella
 
 Det kommer inn 4 kabelenr til kontrollboksen.
 
@@ -37,44 +39,25 @@ Ifølge databladet gjelder følgende påstander:
 - W: koblings- og kabeltype (radial MIL connector, 7-pin)
 - 2500: pulse rate
 
-### Datakabel Hvit (10-ledere + GND)
+## Den andre enkoderen
 
-Denne kabelen har blitt tatt ut (se #kabeloversikt). Disse lederene gikk inn i settene med rekkeklemmer og jordlederen var skrudd ned i boksen.
-
-Denne kabelen kommer fra noe ukjent som sitter under selve båndet.
-
-### Strømkaben (2-fas 230V + GND)
-
-Denne kabelen kommer i fra et støpsel og er strømforsyningen til kontrollboksen.
-
-Disse lederene går inn i en rekkeklemme som videre går til et [230VAC -> 28VDC] PSU. Ut i fra rekkeklemmene går to ledere og en jordleder som skal skal til et ukjent koblingspunkt. Denne jordlederen er koblet til selve kontrollboksen, men fasene henger fritt.
-
-### Datakabel Sort (7 ledere, 6 tynne, 1 tykk)
-
-Denne kabelen kommer i fra de fire (vektene? ikke sikker) som står på hver fot på veiecellen.
-
-Disse 7 lederene passer inn i `+EXC - -EXC` rekken på kontrollboksen.
+Vi har ikke sett på enkoderen i mer detalj enn at vi fant ut hva den er for noe. Dens datablad står i pubs mappa.
 
 ## Ukjent Kabel
 
 Denne kabelen har 10 ledere og en jord leder. Ingen av de andre kabelene i systemet har så mange ledere. Vi antar at denne kabelen tilhører noen sensorer som mangler på venstre siden av motoren. 
 
-De to sensorene som står på høyre side av veiecellen skal ha to lasere som skal antageligvis lyse mot en sensor på andre siden.
+## Laser
 
-Dette er nok for å unngå at objekter kjører av veiecellen.
+Vi mangler reflekser til laserne, og dette er mer beskrevet i en issue laget av Jakob. Laserne er ennå ikke testet for å se om de i det hele tatt fungerer.  
 
-## Boks #2
+## Kontrollboksen
 
-Det ligger en til type kontrollboks under veiecellen. Denne vet vi egentlig ikke helt hva gjør, men vi kjenner til flere av inngangene og utgangene til denne boksen.
-
-| Inngang        | Beskrivelse                                             |
-|----------------|---------------------------------------------------------|
-| Svart, Venstre | Denne lederen går til motoren (denne har blitt tatt ut) |
-| Hvit, Venstre  | 6 ledere, til hjul under                                |
-| 4x Svart Høyre | Går til hver sin fot sin vekt                           |
-| Svart, Toppen  | Går til hovedkontrollboksen                             |
+Denne kontrollboksen inneholder motorkretsen og et kretskort. Kretskortet er en analog junction box og brukes til å samle inn signalene fra vektene og videre føre dem til selve veiecella.
 
 ## Motoren
+
+Motoren er koblet opp, men vi tenker å se om den kan kontrolleres via veiecella. Hvis ikke, tenkte vi å koble opp en krets med en frekvensomformer, siden båndet går for fort med denne farten.
 
 ## Kabeloversikt
 
@@ -94,7 +77,3 @@ Kabel som ble tatt ut som gikk til hver av rekkeklemmene i kontrollboksen (10 + 
 | Grønn   | X2:2        |
 | Gul     | X2:3        |
 | Svart   | X2:4        |
-
-## Pins
-
-Målene på pins som mangler til kontrollboksen er på størrelse `1.00mm x 1.70mm`
