@@ -16,3 +16,6 @@ Det må lages elektrisk dukumentasjon for motorstyringen når motorstyringen er 
 ## Fusion filer 
 fusion 360 filer og stl filer ligger i egen mappa 
 
+## Monteringsplate
+
+Platen skal være på 80x50cm
