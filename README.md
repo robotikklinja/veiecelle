@@ -77,3 +77,7 @@ Kabel som ble tatt ut som gikk til hver av rekkeklemmene i kontrollboksen (10 + 
 | Grønn   | X2:2        |
 | Gul     | X2:3        |
 | Svart   | X2:4        |
+
+## Frekvensomformer
+
+Våre frekvensomformere har ikke stor nokk effekt, så vi må bestille denne [her](https://www.beijerelectronics.com/en/Products/frequency-inverters/General___purpose___-___BFI___E3/BFI___E3___IP20/BFI-E3-12-0043-1F12)
