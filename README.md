@@ -80,4 +80,4 @@ Kabel som ble tatt ut som gikk til hver av rekkeklemmene i kontrollboksen (10 + 
 
 ## Frekvensomformer
 
-Våre frekvensomformere har ikke stor nokk effekt, så vi må bestille denne [her](https://www.beijerelectronics.com/en/Products/frequency-inverters/General___purpose___-___BFI___E3/BFI___E3___IP20/BFI-E3-12-0043-1F12)
+Motoren til annlegget har en effekt på 717W. Våre frekvensomformere har ikke stor nok effekt (350W), så vi må bestille denne [her](https://www.beijerelectronics.com/en/Products/frequency-inverters/General___purpose___-___BFI___E3/BFI___E3___IP20/BFI-E3-12-0043-1F12)
