@@ -6,6 +6,9 @@ Den drives av en tre faset 230V asynkronmotor og vekten på båndet blir regnet 
 
 Veiecella og transportbåndet fungerer, men det gjenstår kalibrering av vektene for mer nøyaktige målinger og andre ting som kan finnes på roadmappen under "Projects".
 
+Motorskiltet har følgende informasjon:
+![](https://github.com/robotikklinja/veiecelle/blob/master/bilder/Motorskilt.png)
+
 # Transportbåndet
 
 Selve transportbåndet er en **Mettler Toledo model 9477**. Informasjon om den kan finnes i databrief dokumentene på [denne siden](https://kennedyscales.com/product/9477ind9d57/). Her er et bilde av skiltet på transportbåndet.
@@ -58,6 +61,7 @@ Denne kontrollboksen inneholder motorkretsen og et kretskort. Kretskortet er en 
 ## Motoren
 
 Motoren er koblet opp, men vi tenker å se om den kan kontrolleres via veiecella. Hvis ikke, tenkte vi å koble opp en krets med en frekvensomformer, siden båndet går for fort med denne farten.
+For å implementere frekevensomformeren og derav kontroll av hastighet må kabelen på motor byttes ut med en skjermet en. Her må også nippelen byttes ut med en EMC nippel, se issues.
 
 ## Kabeloversikt
 
@@ -79,5 +83,6 @@ Kabel som ble tatt ut som gikk til hver av rekkeklemmene i kontrollboksen (10 + 
 | Svart   | X2:4        |
 
 ## Frekvensomformer
+![](https://github.com/robotikklinja/veiecelle/blob/master/bilder/Formel%20motoreffekt.jpg)
 
-Motoren til annlegget har en effekt på 717W. Våre frekvensomformere har ikke stor nok effekt (350W), så vi må bestille denne [her](https://www.beijerelectronics.com/en/Products/frequency-inverters/General___purpose___-___BFI___E3/BFI___E3___IP20/BFI-E3-12-0043-1F12)
+Ut ifra den generelle formelen for å beregne motoreffekt får vi en verdi på på 717W. Våre frekvensomformere har ikke stor nok effekt (375W). Det ble funnet en annen frekvensomformer med effekt på 750W fra Emerson. Denne kan benyttes, eventuelt kan vi bestille denne frekvensomformeren [her](https://www.beijerelectronics.com/en/Products/frequency-inverters/General___purpose___-___BFI___E3/BFI___E3___IP20/BFI-E3-12-0043-1F12)
