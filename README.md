@@ -52,11 +52,11 @@ Denne kabelen har 10 ledere og en jord leder. Ingen av de andre kabelene i syste
 
 ## Laser
 
-Vi mangler reflekser til laserne, og dette er mer beskrevet i en issue laget av Jakob. Laserne er ennå ikke testet for å se om de i det hele tatt fungerer.  
+Vi mangler reflekser til fotocellene, og dette er mer beskrevet i en issue laget av Jakob. Laserne er testet og fungerer. 
 
 ## Kontrollboksen
 
-Denne kontrollboksen inneholder motorkretsen og et kretskort. Kretskortet er en analog junction box og brukes til å samle inn signalene fra vektene og videre føre dem til selve veiecella.
+Denne kontrollboksen inneholder motorkretsen og et kretskort. Kretskortet er en analog junction box og brukes til å samle inn signalene fra vektene og videre føre dem til selve veiecella. Vi skal da benytte oss av utgangsportene betegnet som "AUX".
 
 ## Motoren
 
